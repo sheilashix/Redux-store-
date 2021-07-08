@@ -1,17 +1,15 @@
 {
-  "name": "mern-shopping",
+  "name": "redux-store",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is an ecommerce website using redux",
   "main": "server/server.js",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start": " npm run start:dev",
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
-    "heroku-postbuild": "cd client && npm run build"
+    "install": "cd server && npm i && cd ../client && npm i"
   },
-  "author": "",
+  "author": "Sheila Chepkemoi",
   "license": "ISC",
   "dependencies": {
     "graphql": "^15.3.0",
