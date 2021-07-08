@@ -10,7 +10,6 @@
     "install": "cd server && npm i && cd ../client && npm i"
   },
   "author": "Sheila Chepkemoi",
-  "license": "ISC",
   "dependencies": {
     "graphql": "^15.3.0",
     "if-env": "^1.0.4"
